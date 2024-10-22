@@ -1,0 +1,2 @@
+To use. Extract first the Packed Resources.
+Unity_Mods_Project\7D2D_Unity_Mods\Unity_2021.3.19f1\A21TutorialProject\Assets\Tutorial\Tutorial_Models_Player\Char_AdaWong_Original\avatars\ada_original.data\ada_original.meshes
