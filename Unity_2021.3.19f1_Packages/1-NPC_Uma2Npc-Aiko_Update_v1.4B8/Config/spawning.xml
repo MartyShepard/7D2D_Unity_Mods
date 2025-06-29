@@ -1,0 +1,42 @@
+﻿<configs>
+  <append xpath="/spawning/biome[@name='pine_forest']">
+    <spawn id="dnAkikotNPC01" maxcount="1" respawndelay="1" time="Day" entitygroup="npcAikoFriendlyPineForestDay" notags="commercial,industrial,downtown" />
+    <spawn id="dnAkikotNPC02" maxcount="1" respawndelay="1" time="Day" entitygroup="npcAikoFriendlyPineForestDay" tags="commercial,industrial" notags="downtown" />
+    <spawn id="dnAkikotNPC03" maxcount="1" respawndelay="1" time="Day" entitygroup="npcAikoFriendlyPineForestDowntownDay" tags="downtown" />
+    <spawn id="nnAkikotNPC01" maxcount="1" respawndelay="1" time="Night" entitygroup="npcAikoFriendlyPineForestNight" notags="commercial,industrial,downtown" />
+    <spawn id="nnAkikotNPC02" maxcount="1" respawndelay="1" time="Night" entitygroup="npcAikoFriendlyPineForestNight" tags="commercial,industrial" notags="downtown" />
+    <spawn id="nnAkikotNPC03" maxcount="1" respawndelay="1" time="Night" entitygroup="npcAikoFriendlyPineForestDowntownNight" tags="downtown" />
+  </append>
+  <append xpath="/spawning/biome[@name='burnt_forest']">
+    <spawn id="dnAkikotNPC04" maxcount="1" respawndelay="1" time="Day" entitygroup="npcAikoFriendlyBurntForestDay" notags="commercial,industrial,downtown" />
+    <spawn id="dnAkikotNPC05" maxcount="1" respawndelay="1" time="Day" entitygroup="npcAikoFriendlyBurntForestDay" tags="commercial,industrial" notags="downtown" />
+    <spawn id="dnAkikotNPC06" maxcount="1" respawndelay="1" time="Day" entitygroup="npcAikoFriendlyBurntForestDowntownDay" tags="downtown" />
+    <spawn id="nnAkikotNPC04" maxcount="1" respawndelay="1" time="Night" entitygroup="npcAikoFriendlyBurntForestNight" notags="commercial,industrial,downtown" />
+    <spawn id="nnAkikotNPC05" maxcount="1" respawndelay="1" time="Night" entitygroup="npcAikoFriendlyBurntForestNight" tags="commercial,industrial" notags="downtown" />
+    <spawn id="nnAkikotNPC06" maxcount="1" respawndelay="1" time="Night" entitygroup="npcAikoFriendlyBurntForestDowntownNight" tags="downtown" />
+  </append>
+  <append xpath="/spawning/biome[@name='desert']">
+    <spawn id="dnAkikotNPC07" maxcount="1" respawndelay="1" time="Day" entitygroup="npcAikoFriendlyDesertDay" notags="commercial,industrial,downtown" />
+    <spawn id="dnAkikotNPC08" maxcount="1" respawndelay="1" time="Day" entitygroup="npcAikoFriendlyDesertDay" tags="commercial,industrial" notags="downtown" />
+    <spawn id="dnAkikotNPC09" maxcount="1" respawndelay="1" time="Day" entitygroup="npcAikoFriendlyDesertDowntownDay" tags="downtown" />
+    <spawn id="nnAkikotNPC07" maxcount="1" respawndelay="1" time="Night" entitygroup="npcAikoFriendlyDesertNight" notags="commercial,industrial,downtown" />
+    <spawn id="nnAkikotNPC08" maxcount="1" respawndelay="1" time="Night" entitygroup="npcAikoFriendlyDesertNight" tags="commercial,industrial" notags="downtown" />
+    <spawn id="nnAkikotNPC09" maxcount="1" respawndelay="1" time="Night" entitygroup="npcAikoFriendlyDesertDowntownNight" tags="downtown" />
+  </append>
+  <append xpath="/spawning/biome[@name='snow']">
+    <spawn id="dnAkikotNPC10" maxcount="1" respawndelay="1" time="Day" entitygroup="npcAikoFriendlySnowDay" notags="commercial,industrial,downtown" />
+    <spawn id="dnAkikotNPC11" maxcount="1" respawndelay="1" time="Day" entitygroup="npcAikoFriendlySnowDay" tags="commercial,industrial" notags="downtown" />
+    <spawn id="dnAkikotNPC12" maxcount="1" respawndelay="1" time="Day" entitygroup="npcAikoFriendlySnowDowntownDay" tags="downtown" />
+    <spawn id="nnAkikotNPC10" maxcount="1" respawndelay="1" time="Night" entitygroup="npcAikoFriendlySnowNight" notags="commercial,industrial,downtown" />
+    <spawn id="nnAkikotNPC11" maxcount="1" respawndelay="1" time="Night" entitygroup="npcAikoFriendlySnowNight" tags="commercial,industrial" notags="downtown" />
+    <spawn id="nnAkikotNPC12" maxcount="1" respawndelay="1" time="Night" entitygroup="npcAikoFriendlySnowDowntownNight" tags="downtown" />
+  </append>
+  <append xpath="/spawning/biome[@name='wasteland']">
+    <spawn id="dnAkikotNPC13" maxcount="1" respawndelay="1" time="Day" entitygroup="npcAikoFriendlyWastelandDay" notags="commercial,industrial,downtown" />
+    <spawn id="dnAkikotNPC14" maxcount="1" respawndelay="1" time="Day" entitygroup="npcAikoFriendlyWastelandDay" tags="commercial,industrial" notags="downtown" />
+    <spawn id="dnAkikotNPC15" maxcount="1" respawndelay="1" time="Day" entitygroup="npcAikoFriendlyWastelandDowntownDay" tags="downtown" />
+    <spawn id="nnAkikotNPC13" maxcount="1" respawndelay="1" time="Night" entitygroup="npcAikoFriendlyWastelandNight" notags="commercial,industrial,downtown" />
+    <spawn id="nnAkikotNPC14" maxcount="1" respawndelay="1" time="Night" entitygroup="npcAikoFriendlyWastelandNight" tags="commercial,industrial" notags="downtown" />
+    <spawn id="nnAkikotNPC15" maxcount="1" respawndelay="1" time="Night" entitygroup="npcAikoFriendlyWastelandDowntownNight" tags="downtown" />
+  </append>
+</configs>

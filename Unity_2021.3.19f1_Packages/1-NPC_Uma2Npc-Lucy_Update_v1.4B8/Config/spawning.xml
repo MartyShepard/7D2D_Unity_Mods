@@ -1,0 +1,42 @@
+﻿<configs>
+  <append xpath="/spawning/biome[@name='pine_forest']">
+    <spawn id="dnLucyNPC01" maxcount="1" respawndelay="1" time="Day" entitygroup="npcLucyFriendlyPineForestDay" notags="commercial,industrial,downtown" />
+    <spawn id="dnLucyNPC02" maxcount="1" respawndelay="1" time="Day" entitygroup="npcLucyFriendlyPineForestDay" tags="commercial,industrial" notags="downtown" />
+    <spawn id="dnLucyNPC03" maxcount="1" respawndelay="1" time="Day" entitygroup="npcLucyFriendlyPineForestDowntownDay" tags="downtown" />
+    <spawn id="nnLucyNPC01" maxcount="1" respawndelay="1" time="Night" entitygroup="npcLucyFriendlyPineForestNight" notags="commercial,industrial,downtown" />
+    <spawn id="nnLucyNPC02" maxcount="1" respawndelay="1" time="Night" entitygroup="npcLucyFriendlyPineForestNight" tags="commercial,industrial" notags="downtown" />
+    <spawn id="nnLucyNPC03" maxcount="1" respawndelay="1" time="Night" entitygroup="npcLucyFriendlyPineForestDowntownNight" tags="downtown" />
+  </append>
+  <append xpath="/spawning/biome[@name='burnt_forest']">
+    <spawn id="dnLucyNPC04" maxcount="1" respawndelay="1" time="Day" entitygroup="npcLucyFriendlyBurntForestDay" notags="commercial,industrial,downtown" />
+    <spawn id="dnLucyNPC05" maxcount="1" respawndelay="1" time="Day" entitygroup="npcLucyFriendlyBurntForestDay" tags="commercial,industrial" notags="downtown" />
+    <spawn id="dnLucyNPC06" maxcount="1" respawndelay="1" time="Day" entitygroup="npcLucyFriendlyBurntForestDowntownDay" tags="downtown" />
+    <spawn id="nnLucyNPC04" maxcount="1" respawndelay="1" time="Night" entitygroup="npcLucyFriendlyBurntForestNight" notags="commercial,industrial,downtown" />
+    <spawn id="nnLucyNPC05" maxcount="1" respawndelay="1" time="Night" entitygroup="npcLucyFriendlyBurntForestNight" tags="commercial,industrial" notags="downtown" />
+    <spawn id="nnLucyNPC06" maxcount="1" respawndelay="1" time="Night" entitygroup="npcLucyFriendlyBurntForestDowntownNight" tags="downtown" />
+  </append>
+  <append xpath="/spawning/biome[@name='desert']">
+    <spawn id="dnLucyNPC07" maxcount="1" respawndelay="1" time="Day" entitygroup="npcLucyFriendlyDesertDay" notags="commercial,industrial,downtown" />
+    <spawn id="dnLucyNPC08" maxcount="1" respawndelay="1" time="Day" entitygroup="npcLucyFriendlyDesertDay" tags="commercial,industrial" notags="downtown" />
+    <spawn id="dnLucyNPC09" maxcount="1" respawndelay="1" time="Day" entitygroup="npcLucyFriendlyDesertDowntownDay" tags="downtown" />
+    <spawn id="nnLucyNPC07" maxcount="1" respawndelay="1" time="Night" entitygroup="npcLucyFriendlyDesertNight" notags="commercial,industrial,downtown" />
+    <spawn id="nnLucyNPC08" maxcount="1" respawndelay="1" time="Night" entitygroup="npcLucyFriendlyDesertNight" tags="commercial,industrial" notags="downtown" />
+    <spawn id="nnLucyNPC09" maxcount="1" respawndelay="1" time="Night" entitygroup="npcLucyFriendlyDesertDowntownNight" tags="downtown" />
+  </append>
+  <append xpath="/spawning/biome[@name='snow']">
+    <spawn id="dnLucyNPC10" maxcount="1" respawndelay="1" time="Day" entitygroup="npcLucyFriendlySnowDay" notags="commercial,industrial,downtown" />
+    <spawn id="dnLucyNPC11" maxcount="1" respawndelay="1" time="Day" entitygroup="npcLucyFriendlySnowDay" tags="commercial,industrial" notags="downtown" />
+    <spawn id="dnLucyNPC12" maxcount="1" respawndelay="1" time="Day" entitygroup="npcLucyFriendlySnowDowntownDay" tags="downtown" />
+    <spawn id="nnLucyNPC10" maxcount="1" respawndelay="1" time="Night" entitygroup="npcLucyFriendlySnowNight" notags="commercial,industrial,downtown" />
+    <spawn id="nnLucyNPC11" maxcount="1" respawndelay="1" time="Night" entitygroup="npcLucyFriendlySnowNight" tags="commercial,industrial" notags="downtown" />
+    <spawn id="nnLucyNPC12" maxcount="1" respawndelay="1" time="Night" entitygroup="npcLucyFriendlySnowDowntownNight" tags="downtown" />
+  </append>
+  <append xpath="/spawning/biome[@name='wasteland']">
+    <spawn id="dnLucyNPC13" maxcount="1" respawndelay="1" time="Day" entitygroup="npcLucyFriendlyWastelandDay" notags="commercial,industrial,downtown" />
+    <spawn id="dnLucyNPC14" maxcount="1" respawndelay="1" time="Day" entitygroup="npcLucyFriendlyWastelandDay" tags="commercial,industrial" notags="downtown" />
+    <spawn id="dnLucyNPC15" maxcount="1" respawndelay="1" time="Day" entitygroup="npcLucyFriendlyWastelandDowntownDay" tags="downtown" />
+    <spawn id="nnLucyNPC13" maxcount="1" respawndelay="1" time="Night" entitygroup="npcLucyFriendlyWastelandNight" notags="commercial,industrial,downtown" />
+    <spawn id="nnLucyNPC14" maxcount="1" respawndelay="1" time="Night" entitygroup="npcLucyFriendlyWastelandNight" tags="commercial,industrial" notags="downtown" />
+    <spawn id="nnLucyNPC15" maxcount="1" respawndelay="1" time="Night" entitygroup="npcLucyFriendlyWastelandDowntownNight" tags="downtown" />
+  </append>
+</configs>

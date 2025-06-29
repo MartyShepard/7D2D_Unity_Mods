@@ -1,0 +1,42 @@
+﻿<configs>
+  <append xpath="/spawning/biome[@name='pine_forest']">
+    <spawn id="dnCodGhostNPC01" maxcount="1" respawndelay="1" time="Day" entitygroup="npcCodGhostFriendlyPineForestDay" notags="commercial,industrial,downtown" />
+    <spawn id="dnCodGhostNPC02" maxcount="1" respawndelay="1" time="Day" entitygroup="npcCodGhostFriendlyPineForestDay" tags="commercial,industrial" notags="downtown" />
+    <spawn id="dnCodGhostNPC03" maxcount="1" respawndelay="1" time="Day" entitygroup="npcCodGhostFriendlyPineForestDowntownDay" tags="downtown" />
+    <spawn id="nnCodGhostNPC01" maxcount="1" respawndelay="1" time="Night" entitygroup="npcCodGhostFriendlyPineForestNight" notags="commercial,industrial,downtown" />
+    <spawn id="nnCodGhostNPC02" maxcount="1" respawndelay="1" time="Night" entitygroup="npcCodGhostFriendlyPineForestNight" tags="commercial,industrial" notags="downtown" />
+    <spawn id="nnCodGhostNPC03" maxcount="1" respawndelay="1" time="Night" entitygroup="npcCodGhostFriendlyPineForestDowntownNight" tags="downtown" />
+  </append>
+  <append xpath="/spawning/biome[@name='burnt_forest']">
+    <spawn id="dnCodGhostNPC04" maxcount="1" respawndelay="1" time="Day" entitygroup="npcCodGhostFriendlyBurntForestDay" notags="commercial,industrial,downtown" />
+    <spawn id="dnCodGhostNPC05" maxcount="1" respawndelay="1" time="Day" entitygroup="npcCodGhostFriendlyBurntForestDay" tags="commercial,industrial" notags="downtown" />
+    <spawn id="dnCodGhostNPC06" maxcount="1" respawndelay="1" time="Day" entitygroup="npcCodGhostFriendlyBurntForestDowntownDay" tags="downtown" />
+    <spawn id="nnCodGhostNPC04" maxcount="1" respawndelay="1" time="Night" entitygroup="npcCodGhostFriendlyBurntForestNight" notags="commercial,industrial,downtown" />
+    <spawn id="nnCodGhostNPC05" maxcount="1" respawndelay="1" time="Night" entitygroup="npcCodGhostFriendlyBurntForestNight" tags="commercial,industrial" notags="downtown" />
+    <spawn id="nnCodGhostNPC06" maxcount="1" respawndelay="1" time="Night" entitygroup="npcCodGhostFriendlyBurntForestDowntownNight" tags="downtown" />
+  </append>
+  <append xpath="/spawning/biome[@name='desert']">
+    <spawn id="dnCodGhostNPC07" maxcount="1" respawndelay="1" time="Day" entitygroup="npcCodGhostFriendlyDesertDay" notags="commercial,industrial,downtown" />
+    <spawn id="dnCodGhostNPC08" maxcount="1" respawndelay="1" time="Day" entitygroup="npcCodGhostFriendlyDesertDay" tags="commercial,industrial" notags="downtown" />
+    <spawn id="dnCodGhostNPC09" maxcount="1" respawndelay="1" time="Day" entitygroup="npcCodGhostFriendlyDesertDowntownDay" tags="downtown" />
+    <spawn id="nnCodGhostNPC07" maxcount="1" respawndelay="1" time="Night" entitygroup="npcCodGhostFriendlyDesertNight" notags="commercial,industrial,downtown" />
+    <spawn id="nnCodGhostNPC08" maxcount="1" respawndelay="1" time="Night" entitygroup="npcCodGhostFriendlyDesertNight" tags="commercial,industrial" notags="downtown" />
+    <spawn id="nnCodGhostNPC09" maxcount="1" respawndelay="1" time="Night" entitygroup="npcCodGhostFriendlyDesertDowntownNight" tags="downtown" />
+  </append>
+  <append xpath="/spawning/biome[@name='snow']">
+    <spawn id="dnCodGhostNPC10" maxcount="1" respawndelay="1" time="Day" entitygroup="npcCodGhostFriendlySnowDay" notags="commercial,industrial,downtown" />
+    <spawn id="dnCodGhostNPC11" maxcount="1" respawndelay="1" time="Day" entitygroup="npcCodGhostFriendlySnowDay" tags="commercial,industrial" notags="downtown" />
+    <spawn id="dnCodGhostNPC12" maxcount="1" respawndelay="1" time="Day" entitygroup="npcCodGhostFriendlySnowDowntownDay" tags="downtown" />
+    <spawn id="nnCodGhostNPC10" maxcount="1" respawndelay="1" time="Night" entitygroup="npcCodGhostFriendlySnowNight" notags="commercial,industrial,downtown" />
+    <spawn id="nnCodGhostNPC11" maxcount="1" respawndelay="1" time="Night" entitygroup="npcCodGhostFriendlySnowNight" tags="commercial,industrial" notags="downtown" />
+    <spawn id="nnCodGhostNPC12" maxcount="1" respawndelay="1" time="Night" entitygroup="npcCodGhostFriendlySnowDowntownNight" tags="downtown" />
+  </append>
+  <append xpath="/spawning/biome[@name='wasteland']">
+    <spawn id="dnCodGhostNPC13" maxcount="1" respawndelay="1" time="Day" entitygroup="npcCodGhostFriendlyWastelandDay" notags="commercial,industrial,downtown" />
+    <spawn id="dnCodGhostNPC14" maxcount="1" respawndelay="1" time="Day" entitygroup="npcCodGhostFriendlyWastelandDay" tags="commercial,industrial" notags="downtown" />
+    <spawn id="dnCodGhostNPC15" maxcount="1" respawndelay="1" time="Day" entitygroup="npcCodGhostFriendlyWastelandDowntownDay" tags="downtown" />
+    <spawn id="nnCodGhostNPC13" maxcount="1" respawndelay="1" time="Night" entitygroup="npcCodGhostFriendlyWastelandNight" notags="commercial,industrial,downtown" />
+    <spawn id="nnCodGhostNPC14" maxcount="1" respawndelay="1" time="Night" entitygroup="npcCodGhostFriendlyWastelandNight" tags="commercial,industrial" notags="downtown" />
+    <spawn id="nnCodGhostNPC15" maxcount="1" respawndelay="1" time="Night" entitygroup="npcCodGhostFriendlyWastelandDowntownNight" tags="downtown" />
+  </append>
+</configs>

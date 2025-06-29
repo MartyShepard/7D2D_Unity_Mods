@@ -1,0 +1,42 @@
+﻿<configs>
+  <append xpath="/spawning/biome[@name='pine_forest']">
+    <spawn id="dnEmmaNPC01" maxcount="1" respawndelay="1" time="Day" entitygroup="npcEmmaFriendlyPineForestDay" notags="commercial,industrial,downtown" />
+    <spawn id="dnEmmaNPC02" maxcount="1" respawndelay="1" time="Day" entitygroup="npcEmmaFriendlyPineForestDay" tags="commercial,industrial" notags="downtown" />
+    <spawn id="dnEmmaNPC03" maxcount="1" respawndelay="1" time="Day" entitygroup="npcEmmaFriendlyPineForestDowntownDay" tags="downtown" />
+    <spawn id="nnEmmaNPC01" maxcount="1" respawndelay="1" time="Night" entitygroup="npcEmmaFriendlyPineForestNight" notags="commercial,industrial,downtown" />
+    <spawn id="nnEmmaNPC02" maxcount="1" respawndelay="1" time="Night" entitygroup="npcEmmaFriendlyPineForestNight" tags="commercial,industrial" notags="downtown" />
+    <spawn id="nnEmmaNPC03" maxcount="1" respawndelay="1" time="Night" entitygroup="npcEmmaFriendlyPineForestDowntownNight" tags="downtown" />
+  </append>
+  <append xpath="/spawning/biome[@name='burnt_forest']">
+    <spawn id="dnEmmaNPC04" maxcount="1" respawndelay="1" time="Day" entitygroup="npcEmmaFriendlyBurntForestDay" notags="commercial,industrial,downtown" />
+    <spawn id="dnEmmaNPC05" maxcount="1" respawndelay="1" time="Day" entitygroup="npcEmmaFriendlyBurntForestDay" tags="commercial,industrial" notags="downtown" />
+    <spawn id="dnEmmaNPC06" maxcount="1" respawndelay="1" time="Day" entitygroup="npcEmmaFriendlyBurntForestDowntownDay" tags="downtown" />
+    <spawn id="nnEmmaNPC04" maxcount="1" respawndelay="1" time="Night" entitygroup="npcEmmaFriendlyBurntForestNight" notags="commercial,industrial,downtown" />
+    <spawn id="nnEmmaNPC05" maxcount="1" respawndelay="1" time="Night" entitygroup="npcEmmaFriendlyBurntForestNight" tags="commercial,industrial" notags="downtown" />
+    <spawn id="nnEmmaNPC06" maxcount="1" respawndelay="1" time="Night" entitygroup="npcEmmaFriendlyBurntForestDowntownNight" tags="downtown" />
+  </append>
+  <append xpath="/spawning/biome[@name='desert']">
+    <spawn id="dnEmmaNPC07" maxcount="1" respawndelay="1" time="Day" entitygroup="npcEmmaFriendlyDesertDay" notags="commercial,industrial,downtown" />
+    <spawn id="dnEmmaNPC08" maxcount="1" respawndelay="1" time="Day" entitygroup="npcEmmaFriendlyDesertDay" tags="commercial,industrial" notags="downtown" />
+    <spawn id="dnEmmaNPC09" maxcount="1" respawndelay="1" time="Day" entitygroup="npcEmmaFriendlyDesertDowntownDay" tags="downtown" />
+    <spawn id="nnEmmaNPC07" maxcount="1" respawndelay="1" time="Night" entitygroup="npcEmmaFriendlyDesertNight" notags="commercial,industrial,downtown" />
+    <spawn id="nnEmmaNPC08" maxcount="1" respawndelay="1" time="Night" entitygroup="npcEmmaFriendlyDesertNight" tags="commercial,industrial" notags="downtown" />
+    <spawn id="nnEmmaNPC09" maxcount="1" respawndelay="1" time="Night" entitygroup="npcEmmaFriendlyDesertDowntownNight" tags="downtown" />
+  </append>
+  <append xpath="/spawning/biome[@name='snow']">
+    <spawn id="dnEmmaNPC10" maxcount="1" respawndelay="1" time="Day" entitygroup="npcEmmaFriendlySnowDay" notags="commercial,industrial,downtown" />
+    <spawn id="dnEmmaNPC11" maxcount="1" respawndelay="1" time="Day" entitygroup="npcEmmaFriendlySnowDay" tags="commercial,industrial" notags="downtown" />
+    <spawn id="dnEmmaNPC12" maxcount="1" respawndelay="1" time="Day" entitygroup="npcEmmaFriendlySnowDowntownDay" tags="downtown" />
+    <spawn id="nnEmmaNPC10" maxcount="1" respawndelay="1" time="Night" entitygroup="npcEmmaFriendlySnowNight" notags="commercial,industrial,downtown" />
+    <spawn id="nnEmmaNPC11" maxcount="1" respawndelay="1" time="Night" entitygroup="npcEmmaFriendlySnowNight" tags="commercial,industrial" notags="downtown" />
+    <spawn id="nnEmmaNPC12" maxcount="1" respawndelay="1" time="Night" entitygroup="npcEmmaFriendlySnowDowntownNight" tags="downtown" />
+  </append>
+  <append xpath="/spawning/biome[@name='wasteland']">
+    <spawn id="dnEmmaNPC13" maxcount="1" respawndelay="1" time="Day" entitygroup="npcEmmaFriendlyWastelandDay" notags="commercial,industrial,downtown" />
+    <spawn id="dnEmmaNPC14" maxcount="1" respawndelay="1" time="Day" entitygroup="npcEmmaFriendlyWastelandDay" tags="commercial,industrial" notags="downtown" />
+    <spawn id="dnEmmaNPC15" maxcount="1" respawndelay="1" time="Day" entitygroup="npcEmmaFriendlyWastelandDowntownDay" tags="downtown" />
+    <spawn id="nnEmmaNPC13" maxcount="1" respawndelay="1" time="Night" entitygroup="npcEmmaFriendlyWastelandNight" notags="commercial,industrial,downtown" />
+    <spawn id="nnEmmaNPC14" maxcount="1" respawndelay="1" time="Night" entitygroup="npcEmmaFriendlyWastelandNight" tags="commercial,industrial" notags="downtown" />
+    <spawn id="nnEmmaNPC15" maxcount="1" respawndelay="1" time="Night" entitygroup="npcEmmaFriendlyWastelandDowntownNight" tags="downtown" />
+  </append>
+</configs>
